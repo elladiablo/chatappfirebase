@@ -33,15 +33,15 @@ function login() {
   return (
     //<TouchableWithoutFeedback onPress ={Keyboard.dismiss}>
       <View style ={styles.container}>
-        <Text style = {styles.title}>Chat App!</Text>
-        <Text style = {styles.fieldTitle}>Email</Text>
+        <Text style = {styles.title}>Ella Diablo Chat App!</Text>
+        <Text style = {styles.fieldTitle}>Enter Email Please</Text>
         <TextInput
           style={styles.input}
           placeholder ="Enter Email"
           value ={email}
           onChangeText={(text)=> setEmail(text)}
           />
-        <Text style ={styles.fieldTitle}>Password</Text>
+        <Text style ={styles.fieldTitle}>Enter Password Please</Text>
         <TextInput
           style={styles.input}
           placeholder="Enter Password"
